@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  background-color: #f2f1f2;
+}
+
+.App-header {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.to-do-form {
+  border-radius: 10px;
+  width: 250px;
+  margin-right: 20px;
+}
+
+.to-do-form-title, .to-do-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bb5b4e;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.to-do-form-title h3, .to-do-title h3{
+  background-color: #bb5b4e;
+  color: #ffeee4;
+}
+
+form {
+  background-color:  lightgray;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.input {
+  margin: 10px 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.description {
+  resize: none;
+}
+
+.submit-button {
+  border: none;
+  outline: none;
+  background-color: #bb5b4e;
+  color: #f2f1f2;
+  padding: 2px 0px;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.priority option {
+  background-color: #5d5a5d;
+  color: white;
+}
+
+.to-do-title {
+  background-color: #bb5b4e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.to-do {
+  width: 400px;
+}
+
+.to-do-list-empty {
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.to-do-list-empty h3 {
+  color: #1a191a;
+  background-color: lightgray;
+}
+
+.to-do-list {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+}
+
+
+.to-do-list:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.to-do-list-member {
+  background-color: lightgray;
+}
+
+.to-do-list-member-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  background-color: lightgray;
+}
+
+.to-do-list-member-check {
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.to-do-list-member-priority {
+  background-color: #a6b89c;
+  padding: 3px 10px;
+  border-radius: 5px;
+  color: white;
+  margin-right: 15px;
+}
+
+.check {
+  transform: scale(2);
+}
+
+.horizontal-line {
+  height: 1px;
+  width: 360px;
+  margin-top: -3px;
+  background-color: black;
+}
+
+.to-do-list-member-title {
+  background-color: lightgray;
+}
